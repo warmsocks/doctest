@@ -26,7 +26,7 @@ There will be proper support for this in the future. For now there are 2 ways of
     This has several drawbacks:
     - in case of an exception (or a ```REQUIRE``` assert failing) the entire test case ends and the checks are not done for the rest of the input data
     - the user has to manually log the data with calls to ```CAPTURE()``` ( or ```INFO()```)
-    - more boilerplate - doctest should supply primitives for generating data but currently doesnt - so the user has to write his own data generation
+    - more boilerplate - doctest should supply primitives for generating data but currently doesn't - so the user has to write his own data generation
 
 - using subcases to initialize data differently:
 
